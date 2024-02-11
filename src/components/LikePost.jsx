@@ -1,3 +1,11 @@
+// export default function LikePost(props) {
+
+//   return (
+//     <div>
+//       <button onClick={props.handlePostCount}>Like Post {props.LikePostCounter}</button>
+//     </div>
+//   )
+// }
 import React, { useState } from 'react'
 
 export default function LikePost() {
@@ -11,6 +19,6 @@ export default function LikePost() {
   return (
     <div>
       <button onClick={handlePostCount}>Like Post {likePostCounter}</button>
-    </div>
-  )
+    </div>
+  )
 }
